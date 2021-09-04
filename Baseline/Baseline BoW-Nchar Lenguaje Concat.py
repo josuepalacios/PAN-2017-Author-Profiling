@@ -37,7 +37,7 @@ input_pathImp = "Documentos/ResultadosSS"
 
 
 
-####### elige y procesa las características, bow, char, word #####$##
+####### elige y procesa las características, bow, char, word #####$##&####
 def extract_features(features,type_features,set_to_fit, set_to_transform):
     type_feature = int(type_features)
     features[type_feature].fit(set_to_fit)
